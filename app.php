@@ -18,3 +18,17 @@ $age = 25;
  * 
  * İyi çalışmalar.
  */
+$age = 25;
+ if ($age>=0 && $age<=14) {//if else ifadesini kullanarak yaş aralıklarını girdik
+    echo  " ÇOCUK";
+ }
+ elseif($age>14 && $age<=24) {
+   echo " GENÇ";
+ } elseif($age>=25 && $age<=64) {
+   echo  " YETİŞKİN";
+ }elseif($age>65) {
+   echo " YAŞLI";
+ }else {//yaş yerine harf veya sıfırdan küçük bir değer girilirse diye de else ifadesi döndürdük
+   echo "YAŞINIZI YANLIŞ GİRDİNİZ.TEKRAR DENEYİN";
+ }
+ 
